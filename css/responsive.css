@@ -1,0 +1,51 @@
+/**
+*
+* My example Project
+* This project is just an example and is used for demoing the CSSdoc system.
+*
+* @project    example 
+* @Author     Elmo Wu <elmo@xuedesign.tw>
+* @copyright  2015 xuedesign studio
+* @version    1.0 - 20150731
+*
+* @media only screen and (min-width : 320px) and (max-width : 480px) {手機直}
+* @media only screen and (min-width : 480px) and (max-width : 595px) {手機橫}
+* @media only screen and (min-width : 595px) and (max-width : 800px) {平板直}
+* @media only screen and (min-width : 800px) and (max-width : 1024px) {平板橫}
+* @media only screen and (min-width : 1024px) and (max-width : 1224px){寬螢幕}
+*/
+
+/*1024桌機適用*/
+@media screen and (min-width:960px) and (max-width:1251px){
+ #box_top{ width:90%}
+ #nav{ width:620px}
+ #container{ width:90%}
+}
+
+/*768平板畫面*/
+@media screen and (min-width:768px) and (max-width:959px){
+ #page-top{ height:140px; padding-top:15px}
+ #box_top{ width:90%}
+ #logo{ float:none; margin:0 auto}
+ #nav{ float:none; width:620px; padding-top:10px; margin:0 auto}	
+ #container{ width:90%}
+}
+
+/*小平板與手機之間*/
+@media screen and (min-width:481px) and (max-width: 767px) {
+ #page-top{ height:140px; padding-top:15px}
+ #box_top{ width:90%}
+ #logo{ float:none; margin:0 auto}
+ #nav{ float:none; width:620px; padding-top:10px; margin:0 auto}	
+ #container{ width:90%} 
+}
+
+/*480手機畫面*/
+@media screen and (max-width:480px){
+ #page-top{ height:100px; padding-top:0}	
+ #box_top{ position: relative; width:90%}
+ #logo{ position:absolute; top:0; left:10px; width:100px}
+ #nav{ position:absolute; top:0; right:0; width:100%}
+ #container{ width:90%}
+}
+

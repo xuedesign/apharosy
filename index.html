@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+<meta charset="utf-8" lang="zh-tw">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="description" content="客戶公司名稱"/>
+<meta name="keywords" content="8組關鍵字"/>
+<meta name="Author" content="xuedesign studio" />
+<link rel="shortcut icon"  href="images/favicon.ico"/>
+<link rel="icon" href="images/favicon.ico"/>
+<title>Responsive Page Template</title>
+<link rel="stylesheet" href="css/reset.css"/>
+<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css" />
+<link rel="stylesheet" href="css/xuemain_201402.css"/>
+<link rel="stylesheet" href="css/nav.css"/>
+<link rel="stylesheet" href="css/responsive.css"/>
+<link rel="stylesheet" href="css/animate.css"/>
+<!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<!--[if lte IE 8]>
+  <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-old-ie-min.css">
+<![endif]-->
+<!--[if gt IE 8]><!-->
+   <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
+<!--<![endif]-->
+<!--[if IE 7]>
+	<script src="http://letskillie6.googlecode.com/svn/trunk/2/zh_TW.js"></script>
+<![endif]-->
+</head>
+
+<body>
+ <div id="wrap">
+    <div id="main_content" class="clearfix">
+         
+         <div id="page-top"><!-- 頁首區塊 -->
+            <div id="box_top">
+                  <h1 id="logo">LOGO</h1>
+                  <nav id="nav" class="rmm style">
+                      <ul>
+                          <li>
+                              <a href="#">單元一</a>
+                              <ul>
+                                  <li><a href="#">子單元1</a></li>
+                                  <li><a href="#">子單元2</a></li>
+                                  <li><a href="#">子單元3</a></li>
+                                  <li><a href="#">子單元4</a>
+                                      <ul>
+                                          <li><a href="#">Other 1</a></li>
+                                          <li><a href="#">Other 2</a></li>
+                                      </ul></li>
+                              </ul>
+                          </li>
+                          <li><a href="#">單元二</a></li>
+                          <li>
+                              <a href="#">單元三</a>
+                              <ul>
+                                  <li><a href="#">子單元1</a></li>
+                                  <li><a href="#">子單元2</a></li>
+                                  <li><a href="#">子單元3</a></li>
+                              </ul>
+                          </li>
+                          <li><a href="#">單元四</a></li>
+                      </ul>
+                  </nav>
+             </div>
+         </div><!--//END 頁首區塊 -->
+         
+         
+         <div id="container" class="pure-g">
+            <section class="pure-u-1 pure-u-md-1-2 pure-u-lg-3-4">
+               <div id="box_main" >
+                  <form class="pure-form pure-form-stacked"><!--pure-form是預設值，欄位為橫排，加上"pure-form-stacked" 欄位改為直排-->
+                     <input type="email" placeholder="Email">
+                     <label for="remember">
+                          <input id="remember" type="checkbox"> Remember me
+                      </label>
+                  </form>
+                  
+                  <form class="pure-form pure-form-aligned"><!-- 加上pure-form-aligned,文字和欄位可置中對其 -->
+                     <div class="pure-control-group">
+                        <label for="name">Username</label>
+                        <input id="name" type="text" placeholder="Username" class="pure-input-rounded">
+                     </div>
+                     <div class="pure-control-group">
+                        <label for="name">Username123</label>
+                        <input id="name" type="text" placeholder="Username">
+                     </div>
+                     <div class="pure-control-group">
+                        <label for="name">Username123</label>
+                        <input id="name" type="text" placeholder="Username">
+                     </div>
+                  </form>
+               </div>
+            </section>
+            <aside class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+               <div id="box_left"></div>
+            </aside>
+         </div>
+         
+         
+    </div>
+ </div>
+ 
+ <footer>
+    <h3>2015&copy;Xuedesign Studio. ALL RIGHT RESERVED.</h3>
+ </footer>
+
+<script src="http://code.jquery.com/jquery.min.js"></script>
+<script src="script/responsivemultimenu.js"></script>
+<script src="script/wow.min.js"></script>
+<script>
+    wow=new WOW({animateClass:"animated",offset:100,callback:function(a){console.log("WOW: animating <"+a.tagName.toLowerCase()+">")}}),wow.init();
+</script>  
+<script src="script/jquery.lazyload.js"></script>
+<script src="script/web_set.js"></script>
+<script type="application/ld+json">
+  { 「@context" : 「http://schema.org",//不用更改
+	「@type" : 「Organization", //不用更改
+	「name" : 「Your Organization Name", //置換公司名稱
+	「url" : 「http://www.your-site.com", //置換公司網址
+	「sameAs" : [http://www.facebook.com/your-profile",//置換已有的社群連結
+	"http://www.twitter.com/yourProfile",
+	"http://plus.google.com/your_profile"]
+	「contactPoint" : [
+	{ 「@type" : 「ContactPoint",
+	「telephone" : 「+886-987-152-534〞,
+	「contactType" : 「customer service"
+	} 
+  }
+</script>
+<!--
+   ##############               ###############   
+    ##############             ###############    
+    ##############             ##############     
+     ##############           ##############      
+      ##############          #############       
+       #############         ##############       
+        #############       ##############        
+        ##############      #############         
+         ###############################          
+         ###############################          
+        #################################         
+        ##############     ##############         
+       ##############       ##############        
+       ##############        ##############       
+      ##############         #######           
+     ###############          ##############      
+     ##############           ###############     
+    ######      
+    ##############              ##############    
+   ##############               ##############
+          
+                || 開始設計工作室 ||
+                www.xuedesign.tw
+--> 
+</body>
+</html>
